@@ -1,5 +1,5 @@
 ### call和apply函数
-1. es5以下this一直指向的是调用的函数
+#### es5以下this一直指向的是调用的函数
 ```
 <!doctype html>
 <html>
@@ -28,9 +28,9 @@ fn.fn2()
 </html>
 
 ```
-2. apply（）———— fun.apply(thisArg, [argsArray])
-1）thisArg改变fun运行时候的this指向，如果值为null 或 undefined则指向window对象，如果是数字，字符串，布尔值会指向该原始值的自动包装对象
-2）argsArray一个数组或者类数组对象，传递给fun作为参数
+#### apply（）———— fun.apply(thisArg, [argsArray])
+1. thisArg改变fun运行时候的this指向，如果值为null 或 undefined则指向window对象，如果是数字，字符串，布尔值会指向该原始值的自动包装对象
+2. argsArray一个数组或者类数组对象，传递给fun作为参数
 ```
 <!doctype html>
 <html>
