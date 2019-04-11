@@ -1,4 +1,4 @@
-### call和apply函数
+### call和apply函数————两个函数的意思一样，就是传参方式不同
 #### es5以下this一直指向的是调用的函数
 ```
 <!doctype html>
